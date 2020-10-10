@@ -1,6 +1,6 @@
 # pandas-challenge
 
-This project was to manipulate Pandas Data Frames using Jupyter Notebook to analyze the purchasing data from a fantasy game called Heroes of Pymoli. The game is a free to play online, but encourages players to purchase online items to enhance their playing experience.
+This project was to manipulate Pandas Data Frames using Jupyter Notebook to analyze the purchasing data from a fantasy game called Heroes of Pymoli. The game is free to play online, but encourages players to purchase online items to enhance their playing experience.
 
 
 ### Documents in this repository are:
