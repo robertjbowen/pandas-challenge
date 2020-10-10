@@ -18,7 +18,7 @@ The project begins with downloading a set of purchase and player data into a dat
 
 Each subsequent step in the analysis created a new Data Frame from either the original data set (purchase_data) or the scubbed data set (player_data) depending on the specific analysis to be conducted.
 
-
+***
 ### Analysis Observations:
 
 *1) Males make up the vast majority (84%) of all players outnumbering Females 6 to 1. But females players spend on average almost 10% more than male players.*
