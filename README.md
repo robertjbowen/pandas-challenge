@@ -49,11 +49,13 @@ This step involved creating a new data frame and reading into it 4 calulated val
 
 The price calulations were stored in the list as float values without dollar signs and with extra decimal places. Rather than changing the data in the table by mapping formatting to the columns, I applyed style formatting to the data when it was displayed to have the currency values display properly.
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture2.png)
 
 #### Gender Demographics
 
 This is the first step in the analysis to rely on the player_data dataframe in order to determine the correct numbers of male and female players. This involved creating a new dataframe (gen_out) by calculating the value counts of the 'Gender' column from the player_data data frame. This column was then renamed to 'Total Count' and another column 'Percentage of Players' was calulated by dividing each of the values in the 'Total Count' column by the value calculated in the  Player Count analysis above. This give sthe total number of players grouped by gender and their overall percentage of the total players. The output was also styled to display the percentages properly marked and with two decimal places.
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture3.png)
 
 #### Purchasing Analysis (Gender)
 
@@ -65,26 +67,34 @@ This involved creating a new dataframe (puchase_gen) by copying the 'Gender' and
 
 The 'Average Total Purchase Per Person' was calculated and appended to the data frame by dividing each row of the 'Total Purchase Value' column by the total number of players determined above. Again the output was styled to display currency values properly.
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture4.png)
 
 #### Age Demographics
 
 Age demographis were determined by creating a black dataframe (age_data) and using a pd.cut() method to read in the data from the 'Age' colun of the player_data data frame and divide it into groups starting at under age 10, then every 4 years to age 39, and then all 40 and over. The value counts of each of these bins were then read into another data frame (age_out) and the column was renamed 'Total Count'. A new column was appended to the data frame which calculated the 'Percentage of Players' for each age by dividing each row of the 'Total Count' column by the total number of players from above. The 'Percentage of Players' was formatted to display percentages properly. The output age bins were displaying out of order so I sorted the data frame by the index prior to display.  
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture5.png)
 
 #### Purchase Analysis (Age)
 
 This step in the analysis combined techniques employed earlier in the anlysis. A new dataframe (puchase_age) was created by copying the 'Age' and 3 copies of the 'Price' column from the purchase_data data frame. The columns were renamed and then binned the same as the Age Demographics above. The columns were then grouped b the age ranges,, the 'Average Total Purchase Per Person' was calculated and appended to the data frame and the output was style formatteed to display currency correctly.
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture6.png)
 
 #### Top Spenders
 
 Similar to Purchasing Analysis (Gender) above. This analysis used the 'SN' column of data rather than the 'Gender' column. The data frame columns were renamed and then grouped by the 'SN' column using the groupby().agg() method to allow each column to be grouped using a different format. The data frame was then sorted from largest to smallest using the 'Total Purchadse Value' column and the currency display formats were mapped to the columns for display.
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture7.png)
 
 #### Most Popular Items
 
 Similar to Top Spenders above.The data frame was created, renamed, grouped and sorted. Inorder to retain the integrity of the data for follow on analysis, the currency formatting was applied to the output command rather than mapped to the columns directly.
 
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture8.png)
+
 #### Most Profitable Items
 
 The most simple step of the analysis. Because I did not map the formatting directly to the previous data frame, I was able to simply sort the data by the 'Total Purchase value' column from largest to smallest and apply the style format to the output as above.
+
+![alt tag](https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture9.png)
