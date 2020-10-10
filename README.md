@@ -27,7 +27,7 @@ Each subsequent step in the analysis created a new Data Frame from either the or
 
 *3) The most popular items are also the most profitable. The most popular items are also priced higher than average suggesting players are willing to pay more for items they want. There aren't any big sellers. Out of 780 sales, the most sales of a single item is only 13 (1.6%). Most players only buy one item.*
 
-
+***
 ### Analysis Steps:
 
 #### Player Count
