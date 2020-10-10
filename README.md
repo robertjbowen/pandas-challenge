@@ -7,6 +7,8 @@ This project was to manipulate Pandas Data Frames using Jupyter Notebook to anal
 
 HeroesOfPymoli.ipynb - My Jupyter Notebook file running a Python 3 kernel that contains all of the code for conducting the data analysis 
 
+ObservableTrends.txt - Text file containing three observed trends from the data analysis
+
 Resources directory containing the source file of purchasing data - purchase_data.csv
 
 Checkpoints directory containing checkpoint .ipynb files
