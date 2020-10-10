@@ -3,7 +3,7 @@
 This project was to manipulate Pandas Data Frames using Jupyter Notebook to analyze the purchasing data from a fantasy game called Heroes of Pymoli. The game is a free to play online, but encourages players to purchase online items to enhance their playing experience.
 
 
-Documents in this repository are:
+### Documents in this repository are:
 
 HeroesOfPymoli.ipynb - My Jupyter Notebook file running a Python 3 kernel that contains all of the code for conducting the data analysis 
 
@@ -12,23 +12,23 @@ Resources directory containing the source file of purchasing data - purchase_dat
 Checkpoints directory containing checkpoint .ipynb files
 
 
-Design concept:
+### Design concept:
 
 The project begins with downloading a set of purchase and player data into a data frame (purchase_data). Because players have the ability to make multiple purchases, in order to analyze based on players, it was necessary to create a copy of the original data set and remove duplicate instances of players who made multiple purchases (player_data). This copy makes it possible to work with the reduced data set while still preserving the original data for other analysis. This was completed once at the beginning and called as required through out the analysis.
 
 Each subsequent step in the analysis created a new Data Frame from either the original data set (purchase_data) or the scubbed data set (player_data) depending on the specific analysis to be conducted.
 
 
-Analysis Observations:
+### Analysis Observations:
 
-1) Males make up the vast majority (84%) of all players outnumbering Females 6 to 1. But females players spend on average almost 10% more than male players.
+* 1) Males make up the vast majority (84%) of all players outnumbering Females 6 to 1. But females players spend on average almost 10% more than male players. *
 
-2) 3/4s of all Players fall into the 15-29 year old (high school and college) age range and account for 76% of total revenue.
+* 2) 3/4s of all Players fall into the 15-29 year old (high school and college) age range and account for 76% of total revenue. *
 
-3) The most popular items are also the most profitable. The most popular items are also priced higher than average suggesting players are willing to pay more for items they want. There aren't any big sellers. Out of 780 sales, the most sales of a single item is only 13 (1.6%). Most players only buy one item.
+* 3) The most popular items are also the most profitable. The most popular items are also priced higher than average suggesting players are willing to pay more for items they want. There aren't any big sellers. Out of 780 sales, the most sales of a single item is only 13 (1.6%). Most players only buy one item. *
 
 
-Analysis Steps:
+### Analysis Steps:
 
 Player Count
 
