@@ -37,7 +37,7 @@ Each subsequent step in the analysis created a new Data Frame from either the or
 The first step in the analysis was to determine the player count. This could be done in two ways. 1) by finding the length of a list of the unique values in the 'SN' column of the purchase_data data frame. As I did.  or 2) finding the length of the reduced data frame player_data. Each return a value of 576. This value was read into a data frame called total_players and displayed.
 
 ![alt tag]
-(
+(https://github.com/robertjbowen/pandas-challenge/blob/main/images/Picture1.png)
 
 #### Purchasing Analysis (Total)
 
